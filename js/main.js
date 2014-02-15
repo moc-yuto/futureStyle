@@ -1,7 +1,7 @@
 $(function () {
     $('#nav a').click(function(){
-        var $this = $(this);
-        $this.find('img').animate({
+//        var $this = $(this);
+        $('div.jump, div.circle').animate({
             marginTop: '-100px',
             marginLeft: '-100px',
             width: '500px',
