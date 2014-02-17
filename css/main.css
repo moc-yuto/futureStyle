@@ -37,12 +37,15 @@ div.jump {
     border-radius:50%;
     height: 300px;
     width: 300px;
-    position: relative;
+    position: absolute;
     top: 80px;
     left: 40%;
+    /*
     -moz-box-shadow: inset 0px 0px 15px 15px #000;
     -webkit-box-shadow: inset 0px 0px 15px 15px #000;
     box-shadow: inset 0px 0px 15px 15px #000;
+    */
+    z-index:1;
 }
 canvas {
     position: absolute;

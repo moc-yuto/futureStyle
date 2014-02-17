@@ -1,6 +1,6 @@
 $(function () {
     $('#nav a').click(function(){
-//        var $this = $(this);
+        var $this = $(this);
         $('div.jump, div.circle').animate({
             marginTop: '-100px',
             marginLeft: '-100px',
